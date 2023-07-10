@@ -11,7 +11,7 @@ import up from '../../assets/picture/up.png'
 const Footer = () => {
     return (
         <div className=" bg-[#151515] relative ">
-            <footer className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-5 p-10 md:pt-32 md:pl-28 md:pr-16 md:pb-28 text-base-content container mx-auto">
+            <footer className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-5 p-10 xl:pt-32 xl:pl-28 xl:pr-16 xl:pb-28 text-base-content container mx-auto">
   <div className="flex flex-col">
     <img className="w-32 h-20 mb-9" src={logo} alt="" />
     <p className=" w-72 text-white text-base font-normal pb-8 border-b-2 border-[#FF3B00]">Lorem Ipsum is simply dummy text of the  printing and typesetting industry</p>
@@ -37,7 +37,7 @@ const Footer = () => {
     <span className="text-white text-2xl font-medium pb-12">Newsletter</span> 
     <input type="text" placeholder="Email address" className="input input-bordered w-full max-w-xs bg-stone-400 bg-opacity-80 text-white text-center" />
 
-    <button className=" btn  border-none  text-white text-center  bg-orange-600  font-medium">Subscribe</button>
+    <button className=" btn max-w-xs  border-none  text-white text-center  bg-orange-600  font-medium">Subscribe</button>
 
     <div className="flex items-center gap-2">
         <img  src={tik} alt="" />
@@ -70,7 +70,7 @@ const Footer = () => {
 
 {/* copyright section  */}
 <div className=" absolute bottom-0 right-0 md:w-[60%]  ">
-   <div className=" bg-white rounded-tl-lg  relative hidden md:block  " >
+   <div className=" bg-white rounded-tl-lg  relative hidden xl:block  " >
 
     <div className="rounded-tl-lg absolute inset-y-0 left-0 p-16 flex justify-center items-center bg-[#FF3B00]">
         <img src= {up} alt="" />
