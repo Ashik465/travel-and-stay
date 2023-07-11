@@ -3,6 +3,7 @@ import Blog from "../blog/Blog";
 import Destination from "../destination/Destination";
 import Footer from "../footer/Footer";
 import Gallary from "../gallary/Gallary";
+import Banner from "../header/banner/Banner";
 import Navbar from "../header/navbar/Navbar";
 import Newsletter from "../newsletter/Newsletter";
 import Partner from "../ourPartner/Partner";
@@ -13,6 +14,7 @@ const Home = () => {
     return (
         <>
             <Navbar></Navbar>
+            <Banner></Banner>
             <Destination></Destination>
             <Stories></Stories>
             <Partner></Partner>
