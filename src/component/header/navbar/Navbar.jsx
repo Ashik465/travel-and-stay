@@ -65,7 +65,7 @@ const Navbar = () => {
               >
                 <ul className="lg:flex gap-3">
                   <li>
-                    <a>HOTELS</a>
+                    <a>Support</a>
                   </li>
                   <li>
                     <details>
@@ -118,7 +118,7 @@ const Navbar = () => {
           <div>
             <ul className="lg:flex gap-3">
               <li>
-                <a>HOTELS</a>
+                <a>Support</a>
               </li>
               <li tabIndex={0}>
                 <details>
