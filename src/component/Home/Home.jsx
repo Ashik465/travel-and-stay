@@ -1,3 +1,4 @@
+import Stories from "../Stories/Stories";
 import Blog from "../blog/Blog";
 import Destination from "../destination/Destination";
 import Footer from "../footer/Footer";
@@ -12,6 +13,7 @@ const Home = () => {
         <>
             <Navbar></Navbar>
             <Destination></Destination>
+            <Stories></Stories>
             <Partner></Partner>
             <Blog></Blog>
             <Newsletter></Newsletter>
