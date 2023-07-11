@@ -27,7 +27,7 @@ const Review = () => {
         </div>
 
         {/* carousel start */}
-        <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+        <Swiper pagination={true} modules={[Pagination]} className="mySwiper ">
           <SwiperSlide>
             <div className="md:grid md:grid-cols-3 gap-5 ">
               <div className="flex flex-col gap-5">

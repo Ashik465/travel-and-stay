@@ -1,9 +1,12 @@
 
 import banner from '../../../assets/picture/banner.png'
-
+import Navbar from "../../header/navbar/Navbar";
+// import Down from '../down/Down';
 const Banner = () => {
     return (
-        <div className='container mx-auto'>
+       
+        <div className='relative container mx-auto'>
+ <div className='container mx-auto'>
    <div className="carousel w-full  md:h-[600px] ">
   <div id="slide1" className="carousel-item relative w-full">
     <img src={banner} className="w-full " />
@@ -100,6 +103,19 @@ const Banner = () => {
   </div> 
  
 </div>
+        </div>
+
+   <div className='absolute  top-0 left-0 mx-auto container'>
+     <Navbar></Navbar>
+   </div>
+
+{/* <div className=' absolute -bottom-40 mx-auto container w-[50%] '>
+<Down></Down>
+
+
+</div> */}
+
+
         </div>
     );
 };
